@@ -457,7 +457,7 @@ export default function About() {
                 {/* QUALIFICATION 1*/}
                 <div className="qualificationData">
                   <div>
-                    <h3 className="qualificationTitle">Computer's operator</h3>
+                    <h3 className="qualificationTitle">{"Computer's operator"}</h3>
                     <span className="qualificationSubtitle">SGAEK - College</span>
                     <div className="qualificationCalendar">
                       <i className="uil uil-calendar-alt"></i> 2016 - 2017
@@ -517,7 +517,7 @@ export default function About() {
                 <div className="qualificationData">
                   <div>
                     <h3 className="qualificationTitle">Programmer</h3>
-                    <span className="qualificationSubtitle">JSC - "Bresthleboprodukt"</span>
+                    <span className="qualificationSubtitle">{`JSC - "Bresthleboprodukt"`}</span>
                     <div className="qualificationCalendar">
                       <i className="uil uil-calendar-alt"></i> 2019
                     </div>
